@@ -17,7 +17,6 @@ public class App {
         EntityManagerFactory emff = Persistence.createEntityManagerFactory("Java_JPA");
         EntityManager em = emff.createEntityManager();
         em.getTransaction().begin();
-      
         
         em.getTransaction().commit();
         emff.close();

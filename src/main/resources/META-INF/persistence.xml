@@ -4,6 +4,7 @@
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <class>th.co.geniustree.java_jpa.Product</class>
     <class>th.co.geniustree.java_jpa.Order</class>
+    <class>th.co.geniustree.java_jpa.OrderItem</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/sample"/>
       <property name="javax.persistence.jdbc.user" value="app"/>
